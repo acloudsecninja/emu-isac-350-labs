@@ -4,6 +4,8 @@
 
 In this lab you will use scapy to show various packets to the pfsense and to kali linux!
 
+Github repo --> https://github.com/secdev/scapy
+
 Enjoy!
 
 -Ryan
