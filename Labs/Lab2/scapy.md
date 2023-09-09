@@ -16,8 +16,10 @@ Enjoy!
 
 2. x = IP(ttl=64) - press enter
 
-3. x.src="192.168.56.102" - press enter
+# Not a real IP address in the Network
+3. x.src="192.168.41.123" - press enter
 
-4. x.dst="192.168.56.155" - [press enter]
+# pfsense new network router
+4. x.dst="192.168.41.3" - [press enter]
 
 5. lsc() and then sent(x) - press enter
