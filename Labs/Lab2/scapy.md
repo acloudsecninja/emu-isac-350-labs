@@ -22,4 +22,7 @@ Enjoy!
 # pfsense new network router
 4. x.dst="192.168.41.3" - [press enter]
 
-5. lsc() and then sent(x) - press enter
+5. Run the command --> As an example use this command.
+
+EXAMPLE --> send(IP(src="192.168.41.123" , dst="192.168.41.3")/TCP(sport=80,dport=80) , count=2000)
+6. The next step is to enable diagnostic in your pfsense so you can caputre this for the video upload.
