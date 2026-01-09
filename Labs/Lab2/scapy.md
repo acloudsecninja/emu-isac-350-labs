@@ -1,4 +1,4 @@
-# scapy lab with Kali Linux
+# ISAC 350- Lab 2 - Scapy Lab With Kali Linux
 
 - Scapy is a powerful python-based interaction packet maniuplation program and libary.
 
