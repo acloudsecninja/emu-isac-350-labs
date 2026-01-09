@@ -10,20 +10,37 @@ Enjoy!
 
 -Ryan
 
-# How to Install and sent the packet for this lab!
+# How to Install and sent the packets for this lab!
 
-1. pip install scapy
+Step 1
 
-2. x = IP(ttl=64) - press enter
+```bash
+pip install scapy
+```
+Step 2
 
-# Not a real IP address in the Network
-3. x.src="192.168.41.123" - press enter
+```bash
+x = IP(ttl=64) - press enter
+```
 
-# pfsense new network router
-4. x.dst="192.168.41.3" - [press enter]
+Step 3
 
-5. Run the command --> As an example use this command.
+```bash
+x.src="192.168.41.123"
+```
 
-* EXAMPLE --> send(IP(src="192.168.41.123" , dst="192.168.41.3")/TCP(sport=80,dport=80) , count=2000)
+Step 4
 
-6. The next step is to enable diagnostic in your pfsense so you can caputre this for the video upload.
+```bash
+x.dst="192.168.41.3"
+```
+
+Step 5
+
+```bash
+EXAMPLE --> send(IP(src="192.168.41.123" , dst="192.168.41.3")/TCP(sport=80,dport=80) , count=2000)
+```
+
+Step 6
+
+The next step is to enable diagnostic in your pfsense so you can caputre this for the video upload.
