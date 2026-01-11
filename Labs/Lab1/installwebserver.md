@@ -12,6 +12,6 @@ python
 - Step 2
 
 ```bash
-python -m http.server --bind 192.168.x.x 9000
+python -m http.server --bind 192.168.x.x 9000 ## Update to your local Windows Host IP.
 ```
 
