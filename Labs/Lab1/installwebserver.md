@@ -6,12 +6,12 @@ You will need to figure out how to install Python3 on the Windows System and onc
 - Step 1
 
 ```bash
-python3
+python
 ```
 
 - Step 2
 
 ```bash
-python3 -m http.server --bind 192.168.x.x 9000
+python -m http.server --bind 192.168.x.x 9000
 ```
 
